@@ -13,6 +13,6 @@ var geometryDash = {
     this.ctx = this.canvas.getContext("2d")
   },
   start: function() {
-    this.player = this.Player("Geometry Dash Player", "green", 0, 0)
+    this.player = new this.Player("Geometry Dash Player", "green", 0, 0)
   }
 }
